@@ -1,5 +1,11 @@
+import { Header } from "./components/Header/header";
+import { Navebar } from "./components/Navebar/navebar";
+import { Footer } from "./components/Footer/footer";
+
 export function App() {
-  return (
-    <div>Hello, World!</div>
-  );
+  return (<>
+    <Header />
+    <Navebar />
+    <Footer />
+</>);
 }

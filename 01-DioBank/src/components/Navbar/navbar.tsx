@@ -1,6 +1,6 @@
-import './navebar.css'
-export function Navebar(){
-  return (<div className="navebar">
+import './navbar.css'
+export function Navbar(){
+  return (<div className="navbar">
     <input type="button" value="Home" />
     <input type="button" value="Conta" />
     <input type="button" value="Transferências" />

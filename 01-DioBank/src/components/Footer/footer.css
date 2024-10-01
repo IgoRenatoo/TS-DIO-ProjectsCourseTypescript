@@ -1,8 +1,4 @@
 .footer {
-  position: absolute; /* Posiciona o footer absolutamente */
-  bottom: 0; /* Coloca o footer na parte inferior */
-  left: 0; /* Alinha à esquerda */
-  right: 0; /* Alinha à direita */
   background-color: #34495e; /* Cor do fundo do footer */
   color: white; /* Cor do texto */
   text-align: center; /* Centraliza o texto */

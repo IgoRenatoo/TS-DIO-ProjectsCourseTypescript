@@ -1,4 +1,12 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
+  background-color: #f4f4f4; 
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    flex-direction: column; 
+    align-items: center; 
+  }
 }

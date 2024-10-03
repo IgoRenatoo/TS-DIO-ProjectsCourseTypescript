@@ -1,5 +1,6 @@
 import { Header } from "../components/Header/header"
 import { Navbar } from "../components/Navbar/navbar"
+import { GetData } from "../services/Datas/get-data-user-service"
 import { Footer } from "../components/Footer/footer"
 
 export const Account = () => {
@@ -7,7 +8,7 @@ export const Account = () => {
   <>
     <Header />
     <Navbar />
-    <h1>Login realizado com sucesso!</h1>
+    <GetData />
     <Footer />
   </>
 )} 

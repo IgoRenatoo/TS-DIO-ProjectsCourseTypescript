@@ -1,0 +1,36 @@
+.account-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff; /* Cor do título */
+  margin-bottom: 30px; /* Espaço abaixo do título */
+  font-size: 45px;
+}
+
+p {
+  font-size: 30px !important;
+  margin: 10px 0; /* Espaço entre os parágrafos */
+  font-size: 18px; /* Tamanho da fonte dos parágrafos */
+}
+
+button {
+  margin-top: 30px; /* Espaço acima do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  width: 100px;
+  border-radius: 5px; /* Bordas arredondadas para o botão */
+  background-color: #34495e; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  font-size: 20px; /* Tamanho da fonte do botão */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  transition: background-color 0.3s; /* Efeito de transição para hover */
+}
+
+button:hover {
+  background-color: #3498db; /* Cor do botão ao passar o mouse */
+}

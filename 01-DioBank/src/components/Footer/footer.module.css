@@ -3,30 +3,28 @@
   color: white; /* Cor do texto */
   text-align: center; /* Centraliza o texto */
   padding: 20px 0; /* Espaçamento interno */
-  margin-top: 20px; /* Espaçamento acima do footer */
+  letter-spacing: 1px;
 }
 
-.footer-content {
+.footerContent {
   max-width: 1200px; /* Limita a largura do conteúdo */
   margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
 }
 
-.footer-links {
+.footerLinks {
   list-style: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o padding */
 }
 
-.footer-links li {
+.footerLinks li {
   display: inline; /* Exibe os links em linha */
   margin: 0 15px; /* Espaçamento entre os links */
 }
 
-.footer-links a {
+.footerLinks a {
   color: white; /* Cor do texto dos links */
   text-decoration: none; /* Remove o sublinhado */
   transition: color 0.3s; /* Efeito de transição para a cor */
 }
-
-.footer-links a:hover {
+.footerLinks a:hover {
   color: #3498db; /* Cor do link ao passar o mouse */
 }

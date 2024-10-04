@@ -1,44 +1,50 @@
-.login-container {
+.loginContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  padding-bottom: 20px;
+  margin: 20px auto;
+  padding: 10px;
   min-height: 50vh; 
-  background-color: #f4f4f4; /* Cor de fundo leve */
+  background-color: #f4f4f4;
+}
+.h2 {
+  width: 100%;
+  text-align: center;
 }
 
-.login-form {
+.loginForm {
   background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 300px; /* Largura fixa do formulário */
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
 }
 
-.input-group {
+.inputGroup {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-label {
+.label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
-input {
+.input {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
-  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+  box-sizing: border-box;
 }
 
-.login-button {
+.loginButton {
   width: 100%;
   padding: 0.5rem;
   background-color: #4CAF50;
@@ -49,13 +55,24 @@ input {
   font-size: 1rem;
 }
 
-.login-button:hover {
+.loginButton:hover {
   background-color: #45a049;
 }
 
-/* Responsividade */
 @media (max-width: 400px) {
-  .login-form {
-    width: 90%; /* Reduz a largura em telas menores */
+  .loginForm {
+    width: 90%;
+    padding: 1.5rem;
+  }
+  .h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 401px) and (max-width: 768px) {
+  .loginForm {
+    width: 80%;
+  }
+  .h2 {
+    font-size: 1.2rem;
   }
 }

@@ -7,13 +7,13 @@ export function Navbar() {
       <Link to="/" className={useLocation().pathname === "/" ? styles.active : ""}>
         <button>Home</button>
       </Link>
-      <Link to="/conta" className={useLocation().pathname === "/conta" ? styles.active : ""}>
+      <Link to="/account" className={useLocation().pathname === "/account" ? styles.active : ""}>
         <button>Conta</button>
       </Link>
-      <Link to="/transferencia" className={useLocation().pathname === "/transferencia" ? styles.active : ""}>
+      <Link to="/transfer" className={useLocation().pathname === "/transfer" ? styles.active : ""}>
         <button>Transferências</button>
       </Link>
-      <Link to="/suporte" className={useLocation().pathname === "/suporte" ? styles.active : ""}>
+      <Link to="/support" className={useLocation().pathname === "/support" ? styles.active : ""}>
         <button>Suporte</button>
       </Link>
       <Link to="/login" className={useLocation().pathname === "/login" ? styles.active : ""}>

@@ -1,17 +1,22 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Header } from "./components/Header/header";
-import { Navebar } from "./components/Navebar/navebar";
-import { Footer } from "./components/Footer/footer";
-import { Login } from "./components/Main/login-main";
+
+import { Home } from './pages/home';
+import { Account } from './pages/account';
+import { Transfer } from './pages/transfer';
+import { Support } from './pages/support';
+import { AuthLogin } from './pages/login';
 
 export function App() {
-  const [value, setValue] = useState('')
-  console.log(value)
-  return (<>
-    <Header />
-    <Navebar />
-    <Login />
-    <Footer />
-</>);
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/account' element={<Account />}/>
+        <Route path='/transfer' element={<Transfer />}/>
+        <Route path='/support' element={<Support />}/>
+        <Route path='/login' element={<AuthLogin />}/>
+      </Routes>
+    </BrowserRouter>
+  );
 }

@@ -1,24 +1,22 @@
+import styles from './login.module.css';
+
 import React, { useState } from 'react';
 import { AuthUser } from '../Authentication/auth-user-service';
 
-import styles from './login.module.css';
 
 export function Login(){
   const [username, setUsername] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    // Impede o comportamento padrão do formulário, que recarregaria a página após o envio
-    e.preventDefault(); 
-
-    // Chama a função de validação
-    const AuthResult = AuthUser(username, password);
-
-    // Verifica se a autenticação foi bem-sucedida
-    if (AuthResult.isValid === true) {
-      localStorage.setItem('user', JSON.stringify(AuthResult.user));
-      window.location.href = '/conta';
+  const handleSubmit = async (e: React.FormEvent) => {    
+    e.preventDefault(); // Impede o comportamento padrão do formulário, que recarregaria a página após o envio
+    
+    const AuthResult = AuthUser(username, password); // Chama a função de validação
+    
+    if (AuthResult.isValid === true) { // Verifica se a autenticação foi bem-sucedida
+      localStorage.setItem('user', JSON.stringify(AuthResult.user)); 
+      window.location.href = '/account';
     } else {
       setError('Usuário ou senha inválidos');
     }

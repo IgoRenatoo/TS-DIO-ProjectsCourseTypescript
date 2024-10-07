@@ -8,7 +8,9 @@
 }
 
 .button {
+  margin: 20px auto;
   padding: 10px 20px;
+  width: auto;
   border-radius: 4px;
   background-color: #34495e;
   color: white;

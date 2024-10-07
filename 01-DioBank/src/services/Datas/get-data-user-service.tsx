@@ -1,7 +1,11 @@
 import styles from './get-data.module.css';
 
+import { IUser } from '../../database/users-database';
+import { Link, Location, useLocation } from "react-router-dom";
+
 export function GetData(){
-  const user = JSON.parse(localStorage.getItem('user') as string);
+  const user: IUser = JSON.parse(localStorage.getItem('user') as string);
+  const location: Location = useLocation();
   
   const handleLogout = () => {
     localStorage.clear(); // Limpa o localStorage
@@ -24,9 +28,9 @@ export function GetData(){
   } else {
     return (
       <main>
-        <h1 className={styles.accountDetails}>
+        <Link to="/login" className={location.pathname === "/login" ? styles.active : ""}>
           <button className={styles.button}>Realizar Login</button>
-        </h1>
+        </Link>
       </main>
     );
   }

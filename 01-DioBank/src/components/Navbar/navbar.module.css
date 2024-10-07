@@ -1,4 +1,4 @@
-.navbar {
+nav {
   display: flex;
   justify-content: space-evenly;
   background-color: #f4f4f4;
@@ -20,7 +20,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #3498db; /* Cor ao passar o mouse sobre o botão */
+  background-color: #3498db;
 }
 
 .loginButton {
@@ -33,12 +33,12 @@ button:hover {
   color: white;
   letter-spacing: 0.8px;
   font-size: 8px;
-  border-radius: 50%; /* Deixa o botão redondo */
+  border-radius: 50%;
   transition: background-color 0.3s;
   cursor: pointer;
 }
 .loginButton:hover {
-  background-color: #3498db; /* Cor ao passar o mouse sobre o botão */
+  background-color: #3498db;
 }
 
 @media (max-width: 400px) {

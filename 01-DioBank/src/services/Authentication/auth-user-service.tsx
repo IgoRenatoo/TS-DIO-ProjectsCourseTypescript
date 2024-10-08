@@ -1,15 +1,11 @@
-import { IUser, Users } from "../../database/users-database";
+import { Users } from "../../database/users-database";
 
-interface IAuthResult {
-  isValid: boolean,
-  user?: IUser;
-}
-
-export const AuthUser = (username: string, password: string): IAuthResult => {
+export const AuthenticateUser = (username: string, password: string): boolean => {
   const user = Users.find((user) => user.id === username && user.password === password);
-  if (user) {
-    return { isValid: true, user };
+  if(user){
+    localStorage.setItem('user', JSON.stringify(user));
+    return true;
   }else{
-    return { isValid: false };
+    return false;
   }
 };

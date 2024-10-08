@@ -1,6 +1,6 @@
 import { Header } from "../components/Header/header"
 import { Navbar } from "../components/Navbar/navbar"
-import { AuthLogin } from "../services/Login/login"
+import { AuthLogin } from "../services/Login/auth-login"
 import { Footer } from "../components/Footer/footer"
 
 import { FC } from "react"

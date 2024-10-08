@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
-import { Home } from './pages/home';
-import { Account } from './pages/account';
-import { Transfer } from './pages/transfer';
-import { Support } from './pages/support';
-import { AuthLogin } from './pages/login';
+import { Home } from './Pages/home';
+import { Account } from './Pages/account';
+import { Transfer } from './Pages/transfer';
+import { Support } from './Pages/support';
+import { Login } from './Pages/login';
 
 export function App() {
   return (
@@ -15,8 +14,8 @@ export function App() {
         <Route path='/account' element={<Account />}/>
         <Route path='/transfer' element={<Transfer />}/>
         <Route path='/support' element={<Support />}/>
-        <Route path='/login' element={<AuthLogin />}/>
+        <Route path='/login' element={<Login />}/>
       </Routes>
     </BrowserRouter>
-  );
-}
+  )
+};

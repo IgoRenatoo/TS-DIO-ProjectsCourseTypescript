@@ -1,0 +1,39 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.7);
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 300px; /* Ajuste conforme necessário */
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Para garantir que ocupe todo o espaço */  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3)
+}
+
+textarea {
+  resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+ul {
+  list-style-type: none; /* Remove a marcação padrão */
+  padding-left: 0; /* Remove a margem esquerda */
+}
+
+li {
+  margin-bottom: 15px; /* Espaçamento entre as perguntas */
+}

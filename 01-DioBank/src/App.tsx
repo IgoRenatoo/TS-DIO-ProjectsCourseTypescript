@@ -8,7 +8,7 @@ import { Login } from './Pages/login';
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TS-DIO-ProjectsCourseTypescript">
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/account' element={<Account />}/>

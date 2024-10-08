@@ -1,0 +1,33 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.7);
+}
+
+.AccountDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.7)
+}
+
+.NotLoggedIn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.7)
+}

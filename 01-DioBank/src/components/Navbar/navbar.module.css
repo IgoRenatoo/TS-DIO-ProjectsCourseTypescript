@@ -1,29 +1,12 @@
-nav {
+.Navbar {
   display: flex;
   justify-content: space-evenly;
-  background-color: #f4f4f4;
+  background-color: rgb(244, 244, 244);
   flex-wrap: wrap; /* Permitir que os itens se movam para a linha seguinte se necessário */
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.3)
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 30px;
-  width: 150px;
-  border-radius: 4px;
-  background-color: #34495e;
-  color: white;
-  letter-spacing: 1px;
-  transition: background-color 0.3s;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #3498db;
-}
-
-.loginButton {
+.LoginButton {
   height: 30px;
   width: 30px;
   position: fixed;
@@ -34,23 +17,24 @@ button:hover {
   letter-spacing: 0.8px;
   font-size: 8px;
   border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(42, 157, 144, 0.7);
   transition: background-color 0.3s;
   cursor: pointer;
 }
-.loginButton:hover {
-  background-color: #3498db;
+.LoginButton:hover {
+  background-color: rgba(42, 157, 144);
 }
 
 @media (max-width: 400px) {
-  nav {
+  .Navbar {
     flex-direction: column;
     align-items: center;
-    gap: 5px;
   }
 }
 @media (max-width: 650px) {
   button {
-    width: 100px;
+    width: 140px;
+    margin: 5px;
     font-size: 12px;
   }
 }

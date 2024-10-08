@@ -1,0 +1,29 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(40, 160, 145, 0.7);
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(40, 160, 145);
+  text-align: center;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+.SpecialOffers {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(230, 200, 100);
+}
+.SpecialOffers p {
+  font-size: 1.2rem;
+}

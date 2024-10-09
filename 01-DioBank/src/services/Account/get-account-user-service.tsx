@@ -8,7 +8,7 @@ export function GetAccount(){
   
   const handleLogout = () => {
     localStorage.clear(); // Limpa o localStorage
-    window.location.reload(); // Recarrega a página para simular o logout
+    window.location.href = '/TS-DIO-ProjectsCourseTypescript/'; // Recarrega a página para simular o logout
   };
 
   if(user && user.id){

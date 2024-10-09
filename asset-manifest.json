@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TS-DIO-ProjectsCourseTypescript/static/css/main.a0ee2933.css",
-    "main.js": "/TS-DIO-ProjectsCourseTypescript/static/js/main.92206c2c.js",
+    "main.js": "/TS-DIO-ProjectsCourseTypescript/static/js/main.c52d392a.js",
     "static/media/Capa-DioBank.png": "/TS-DIO-ProjectsCourseTypescript/static/media/Capa-DioBank.bf43e7c3a8963a27ac69.png",
     "index.html": "/TS-DIO-ProjectsCourseTypescript/index.html",
     "main.a0ee2933.css.map": "/TS-DIO-ProjectsCourseTypescript/static/css/main.a0ee2933.css.map",
-    "main.92206c2c.js.map": "/TS-DIO-ProjectsCourseTypescript/static/js/main.92206c2c.js.map"
+    "main.c52d392a.js.map": "/TS-DIO-ProjectsCourseTypescript/static/js/main.c52d392a.js.map"
   },
   "entrypoints": [
     "static/css/main.a0ee2933.css",
-    "static/js/main.92206c2c.js"
+    "static/js/main.c52d392a.js"
   ]
 }

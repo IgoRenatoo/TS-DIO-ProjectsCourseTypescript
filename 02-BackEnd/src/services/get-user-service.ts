@@ -1,13 +1,12 @@
 import { db } from "../database/server-db";
 
-export const getAllUsers = () => {
+export const getAllUsers = async () => {
   return new Promise((resolve, reject) => {
     db.all("SELECT * FROM users", (err, rows) => {
       if (err) {
         reject(err); // Rejeita a promise em caso de erro
       } else {
-        console.log(rows);
-        resolve(rows); // Resolve a promise com os dados
+        resolve(rows); // Resolver a Promise com os dados recuperados
       }
     });
   });

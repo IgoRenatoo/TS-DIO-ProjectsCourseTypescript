@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx --watch src/server.ts",
+    "dev": "tsx --watch src/app.ts",
     "migration:create": "typeorm migration:create",
     "migration:run": "tsx ./node_modules/typeorm/cli.js migration:run -d ./src/data-source.ts",
     "migration:revert": "tsx ./node_modules/typeorm/cli.js migration:revert -d ./src/data-source.ts"

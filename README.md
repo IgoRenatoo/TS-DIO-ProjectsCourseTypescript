@@ -6,7 +6,9 @@
 
 ## 💻 Descrição do curso
 
-Este curso abrange os fundamentos de desenvolvimento de software utilizando `TypeScript`. Os alunos aprendem a implementar soluções robustas e escaláveis, focando em práticas ágeis. Ao final do curso, os participantes estarão aptos a criar aplicações manuteníveis e de alta qualidade.
+Este curso abrange os fundamentos de desenvolvimento de software utilizando `TypeScript`. Foi possível aprender a implementar soluções robustas e escaláveis, focando em práticas ágeis.
+
+   - Formação Typescript Fullstack Developer - 44h
 
 > **Colaboração:** Not found  
 > **Status:**  Concluído  ✔️
